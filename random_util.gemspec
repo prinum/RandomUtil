@@ -6,7 +6,7 @@ require 'random_util/version'
 Gem::Specification.new do |gem|
   gem.name          = "random_util"
   gem.version       = RandomUtil::VERSION
-  gem.authors       = ["daichi"]
+  gem.authors       = ["prinum101"]
   gem.email         = ["prinum101@gmail.com"]
   gem.description   = %q{This is useful for creating random characters}
   gem.summary       = %q{This is useful for creating random characters}
