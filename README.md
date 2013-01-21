@@ -1,6 +1,6 @@
 # RandomUtil
 
-    This is useful for creating strings.
+    This is useful for creating random strings.
 
 ## Installation
 
