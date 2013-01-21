@@ -1,6 +1,6 @@
 # RandomUtil
 
-TODO: Write a gem description
+    This is useful for creating strings.
 
 ## Installation
 
@@ -17,8 +17,11 @@ Or install it yourself as:
     $ gem install random_util
 
 ## Usage
+    require('random_util')
+    RandomUtil.alphabets(8) #=>"wATAZrJU"
+    RandomUtil.numbers(7) #=>"0603549"
+    RandomUtil.alphabet_and_number(counts) #=>"0lRJyl3VP6iw" 
 
-TODO: Write usage instructions here
 
 ## Contributing
 

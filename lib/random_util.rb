@@ -12,7 +12,7 @@ module RandomUtil
     Array.new(counts).map { NUMBERS[rand(NUMBERS.length)] }.join
   end
 
-  def self.except_special_symbol(counts)
+  def self.alphabet_and_number(counts)
     symbols = ALPHABETS + NUMBERS
     Array.new(counts).map { symbols[rand(symbols.length)] }.join
   end
