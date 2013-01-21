@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["prinum101@gmail.com"]
   gem.description   = %q{This is useful for creating random characters}
   gem.summary       = %q{This is useful for creating random characters}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/prinum/RandomUtil"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
