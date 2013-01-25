@@ -20,8 +20,8 @@ Or install it yourself as:
     require('random_util')
     RandomUtil.alphabets(8) #=>"wATAZrJU"
     RandomUtil.numbers(7) #=>"0603549"
-    RandomUtil.alphabet_and_number(counts) #=>"0lRJyl3VP6iw" 
-
+    RandomUtil.alphabet_and_number(12) #=>"0lRJyl3VP6iw" 
+Argument is a number of characters.
 
 ## Contributing
 
