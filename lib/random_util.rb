@@ -1,7 +1,7 @@
 require "random_util/version"
 
 module RandomUtil
-  ALPHABETS = ('a'..'z').map{|s| s} + ('A'..'Z').map{|s| s}
+  ALPHABETS = ('a'..'z').to_a + ('A'..'Z').to_a
   NUMBERS = (0..9).map{|n| n}
   
   def self.alphabets(counts)
