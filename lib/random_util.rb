@@ -9,7 +9,7 @@ module RandomUtil
   end
 
   def self.numbers(counts)
-    Array.new(counts).map { NUMBERS.sample] }.join
+    Array.new(counts).map { NUMBERS.sample }.join
   end
 
   def self.alphabet_and_number(counts)
